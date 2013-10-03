@@ -42,7 +42,9 @@ end
 # gem 'capistrano', group: :development
 
 # Use debugger
-# gem 'debugger', group: [:development, :test]
+gem 'debugger', group: [:development, :test]
+
+gem 'psych'
 
 gem 'hydra', '~> 6.0.0', :require => 'hydra6'
 
